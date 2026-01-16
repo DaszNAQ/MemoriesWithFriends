@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memories</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="antialiased">
+    <!-- Header -->
+    <header
+      class="sticky top-0 z-50 backdrop-blur-xl bg-black/60 border-b border-white/5"
+    >
+      <div class="max-w-7xl mx-auto px-5 py-6 flex items-center justify-center">
+        <div>
+          <h1
+            class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent"
+          >
+            Memory Friends
+          </h1>
+          <p class="text-sm text-gray-400 mt-1">
+            HITC 2022 – 2025
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Slider -->
+    <div class="mt-8 relative w-full max-w-5xl mx-auto overflow-hidden rounded-2xl h-72 md:h-96">
+  <img
+    id="headerSlider"
+    src="img/gallery/bg3.jpg"
+    class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
+  />
+</div>
+
+
+    <!-- Time together -->
+    <section class="time-together">
+      <div class="time-box">
+        <h3 class="time-title">TỪ NGÀY CUỐI CÙNG Ở TRƯỜNG</h3>
+        <p class="time-date">28 tháng 12 2025</p>
+        <h3 class="time-title">ĐÃ TRÔI QUA</h3>
+
+        <div class="time-counter">
+          <div><span id="days">0</span><small>Ngày</small></div>
+          <div><span id="hours">0</span><small>Giờ</small></div>
+          <div><span id="minutes">0</span><small>Phút</small></div>
+          <div><span id="seconds">0</span><small>Giây</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Friend stories -->
+    <section class="friend-stories">
+      <h2 class="stories-title">Dear My Friends</h2>
+      <p class="stories-text">
+        Chúng ta đã từng cùng nhau hỏi cách làm sao để ra được những hình ảnh hay là code giống thầy cô, đã từng gọi cầu cứu xin code vào lúc giữa đêm chỉ để nộp bài đúng thời hạn. Đôi khi code giống nhau đến từng dấu chấm nhưng khi copy qua bài khác thì vẫn lỗi để rồi thức trắng đêm để làm lại từ đầu. </br>
+        Dù ta chưa từng ngồi với nhau để thảo luận về bài tập nhưng mỗi khi cần tới nhau thì chỉ cần nhắn vài tin rồi gửi file là đã quá tuyệt vời.</br>
+        Và bây giờ ko còn cơ hội để nhắn tin hỏi bài nhau nữa vì giờ mỗi người đã một hướng, và rồi mình nhận ra thứ đáng giá nhất ko phải là những gì mà chúng ta đã học được ở trên trường mà chính là quãng thời gian mà chúng ta đã cùng nhau hỗ trợ nhau để bước qua những ngày đó.</br>
+        Đó cũng chính là lý do mà tại sao mình làm trang web này, với mục đích đơn giản chỉ để ghi nhớ rằng mình đã từng có những người bạn tuyệt vời này.
+</p>
+
+      <div class="stories-wrapper mt-20">
+        <div class="story-card">
+          <div class="story-image">
+            <img src="img/gallery/img4.jpg" />
+          </div>
+          <div class="story-content">
+            <h2>Nguyễn Anh Dũng</h2>
+            <p>
+              Một người anh em thân thiết, hiện đang thất nghiệp nhưng có người yêu nên dễ bị sang chấn tâm lý
+          </br>MONG ANH VẪN THEO HƯỚNG IT VÀ HẾT THẤT NGHIỆP NHA
+            </p>
+          </div>
+        </div>
+
+        <div class="story-card reverse">
+          <div class="story-image">
+            <img src="img/gallery/img5.jpg" />
+          </div>
+          <div class="story-content">
+            <h2>TRẦN XUÂN PHÒNG</h2>
+            <p>
+              Một người anh tuyệt vời nhờ học chung môn Module1 nên mới biết nhau, luôn đưa ra những lời khuyên hữu ích
+          </br>NGHIÊM TÚC NHỮNG LÚC CẦN THIẾT VÀ KO QUÊN TẤU HÀI KHI CÓ THỂ  
+            </p>
+          </div>
+        </div>
+
+        <div class="story-card">
+          <div class="story-image">
+            <img src="img/gallery/img1.jpg" />
+          </div>
+          <div class="story-content">
+            <h2>Nguyễn Lê Bá Quốc</h2>
+            <p>
+              Một trong những đứa bạn thân đầu tiên trong lớp và hay rủ nhau đi đánh bida nhiều nhất
+          </br>NGHIÊM TÚC THÌ KO THẤY MÀ TẤU HÀI THÌ BAO LA
+            </p>
+          </div>
+        </div>
+
+        <div class="story-card reverse">
+          <div class="story-image">
+            <img src="img/gallery/img7.jpg" />
+          </div>
+          <div class="story-content">
+            <h2>Lê Thị Thúy Ngân</h2>
+            <p>
+              Mang danh giỏi nhất lớp nhưng thực chất là không biết gì về code cả, chỉ biết copy và paste thôi
+          </br>LUÔN SẴN LÒNG GIÚP BẠN BÈ LIỀN NHƯNG CÁI NẾT THÍCH TẠO NÉT
+            </p>
+          </div>
+        </div>
+        <div class="story-card">
+          <div class="story-image">
+            <img src="img/gallery/img15.jpg" />
+          </div>
+          <div class="story-content">
+            <h2>Đào Văn Phương</h2>
+            <p>
+              Một người anh thân thiết từ những ngày đầu vào học, nhưng ko có ảnh chụp chung nên lấy tạm ảnh cá nhân trên FB
+          </br>KO BIẾT ĐANG Ở ĐÂU LÀM GÌ VÌ HIẾM LẮM MỚI THẤY NHẮN ZALO
+            </p>
+          </div>
+        </div>
+        <div class="story-card reverse">
+          <div class="story-image">
+            <img src="img/gallery/img6.jpg" />
+          </div>
+          <div class="story-content">
+            <h2>Tổ Đội Code Này Cũng Ra Gì Đó</h2>
+            <p>
+              Ảnh chụp từ ngày cuối của năm 2024, lúc này anh em vẫn ổn về việc học nhưng chủ web thì bất ổn vì nợ môn
+            </br>HIỆN TẠI NHÓM TRÊN ZALO VẪN CÒN TẤU HÀI ĐỀU ĐẶN, NHƯNG LÊN KÈO GẶP OFF THÌ HƠI KHÓ
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+      <h2 class="stories-title">Thank You For Everything</h2>
+
+    <!-- Gallery -->
+    <main class="gallery w-full h-full max-w-7xl mx-auto px-2 sm:px-4 py-8">
+      <div class="center-wrapper">
+        <div class="masonry-wrapper">
+          <div id="masonryGrid" class="masonry-grid"></div>
+        </div>
+      </div>
+<!-- 
+      <div id="emptyState" class="hidden text-gray-500 py-20">
+        Chưa có kỷ niệm nào
+      </div> -->
+    </main>
+    <!-- Memories Video Section
+<section class="memories-video">
+  <h2 class="video-title"> Một chút video bất ổn</h2>
+
+  <div class="video-wrapper">
+    <video
+      src="Video/m1.mp4"
+      controls
+      preload="metadata"
+      playsinline
+    ></video>
+
+    <video
+      src="Video/m2.mp4"
+      controls
+      preload="metadata"
+      playsinline
+    ></video>
+  </div>
+</section> -->
+
+    <!-- Footer -->
+    <footer class="mt-24 pb-20 px-6">
+      <div
+        class="max-w-3xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl"
+      >
+        <h2 class="text-2xl font-semibold mb-6 text-pink-400 text-center">
+          SEE YOU AGAIN - BEST WISH
+        </h2>
+
+        <div
+          class="text-sm leading-relaxed text-gray-300 space-y-4 text-left italic"
+        >
+        <div class="footer-image flex justify-center">
+            <img class="last-img" src="img/gallery/img14.jpg" />
+          </div>
+          <p>
+            Gửi những năm tháng đã cùng nhau với những dòng code đỏ, đã có những ngày
+            tưởng như chẳng có gì, nhưng sau này nhìn lại thì là cả một bầu trời
+            ký ức.
+          </p>
+
+          <p>
+            Cảm ơn vì đã xuất hiện trong cuộc đời nhau, không cần quá lâu, chỉ cần đủ để nhớ.
+          </p>
+
+          <p>
+            Never forget - Never say goodybye.
+          </p>
+
+          <p class="text-right not-italic text-gray-400">Nguyễn Anh Quân</p>
+        </div>
+      </div>
+    </footer>
+    <div class="end">
+      <p class="text-center text-sm text-gray-500 mb-6">
+        © 2025 Memories. All rights reserved. DaszNAQ
+      </p>
+    </div>
+
+    <!-- Fullscreen -->
+    <div id="fullscreen">
+      <div class="fullscreen-content">
+        <button id="closeBtn" class="close-btn">×</button>
+        <button id="prevBtn" class="nav-btn prev disabled">←</button>
+        <img id="fullImage" />
+        <button id="nextBtn" class="nav-btn next disabled">→</button>
+      </div>
+    </div>
+
+    <!-- Music -->
+    <div class="music-toggle">
+      <button id="musicBtn"
+       class="fixed left-6 bottom-6 z-50 w-14 h-14 rounded-full
+         bg-white/20 backdrop-blur border border-white/30
+         flex items-center justify-center text-2xl
+         shadow-xl hover:scale-110 transition">♫</button>
+    </div>
+    <audio id="bgMusic" loop>
+      <source src="music/SeeYouAgain.mp3" />
+    </audio>
+
+    <!-- Snow -->
+    <div class="snow-container"></div>
+
+    <!-- JS -->
+    <script src="js/time.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/snow.js"></script>
+    <script src="js/stories.js"></script>
+  </body>
+</html>
