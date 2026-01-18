@@ -1,5 +1,14 @@
 const snowContainer = document.querySelector(".snow-container");
 
+/* ĐƯA TUYẾT RA PHÍA SAU */
+snowContainer.style.position = "fixed";
+snowContainer.style.top = "0";
+snowContainer.style.left = "0";
+snowContainer.style.width = "100%";
+snowContainer.style.height = "100%";
+snowContainer.style.pointerEvents = "none";
+snowContainer.style.zIndex = "0"; // Đảm bảo tuyết ở phía sau các phần tử khác
+
 function createSnowflake() {
   const snowflake = document.createElement("div");
   snowflake.className = "snowflake";
